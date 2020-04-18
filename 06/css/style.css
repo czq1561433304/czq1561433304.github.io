@@ -1,0 +1,35 @@
+body{
+    background-color: #c4f5e4;
+    color: rgb(29, 47, 61);
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    height: 100%;
+}
+.item{
+    flex-grow: 1;
+    margin: 35px 40px;
+    text-align: center;
+}
+.item img{
+    width: 75%;
+}
+
+button{
+    background-color:#95f171;
+    color: #ffffff;
+    font-size: 20px;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 0 10px;
+    border: none;
+}
+
+@media screen and (max-width:480px){
+    #result{margin: 0;}
+    .item img{
+        width: 100%;
+    }
+}

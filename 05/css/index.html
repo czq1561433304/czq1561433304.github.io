@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>体验采摘乐趣，品味田园生活</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.css">  
+    <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">    
+    <script src="https://unpkg.com/swiper/js/swiper.js"> </script>  
+    <script src="https://unpkg.com/swiper/js/swiper.min.js"> </script>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <a href="">
+                <img class="logo" src="images/logo.png" alt="">
+            </a>
+            <ul class="nav">
+                <li><a>首页</a></li>
+                <li><a>关于我们</a></li>
+                <li><a>瓜大姐</a></li>
+                <li><a>主营范围</a></li>
+                <li><a>新闻中心</a></li>
+                <li><a>行业动态</a></li>
+                <li><a>产品知识</a></li>
+                <li><a>联系我们</a></li>
+                <li><a>客服</a></li>
+            </ul>
+        </div>
+
+        <div class="content">
+            <div class="banner">
+                <div class="banner-text">
+                    <h1>体验采摘乐趣，品味田园生活</h1>
+                    <p>瓜大姐采摘园里欢乐多！</p>
+                    <p>让孩子沐浴阳光</p>
+                    <p>培养孩子动手能力，了解粮食来之不易</p>
+                    <button>免费下载</button>
+                    <ul class="fuction">
+                        <li>忘记了账号或密码？</li>
+                        <li>自主接触登陆或者功能限制</li>
+                        <li>冻结或解冻账号</li>
+                    </ul>
+                </div>
+
+                <div class="banner-img">
+                    <div class="swiper-container">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <img src="images/banner1.png" alt="" >
+                            </div>
+                            <div class="swiper-slide"><img src="images/banner2.png" alt=""></div>
+                            <div class="swiper-slide"><img src="images/banner3.png" alt=""></div>
+                        </div>
+
+                        <div class="swiper-pagination"></div>
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-button-next"></div>
+                        
+                        <div class="swiper-scrollbar"></div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="info">
+                <div class="download">
+                    <ul>
+                        <li>
+                            <div class="download-web"></div>
+                            <h3>瓜大姐网页版</h3>
+                            <p>在浏览器使用瓜大姐</p>
+                            <a href="">了解更多</a>
+                        </li>
+                        <li>
+                            <div class="download-mac"></div>
+
+                            <h3>瓜大姐Mac版</h3>
+                            <p>界面简洁明确</p>
+                            <a href="">了解更多</a>
+                        </li>
+                        <li>
+                            <div class="download-win"></div>
+
+                            <h3>瓜大姐Windows版</h3>
+                            <p>采摘细节</p>
+                            <a href="">了解更多</a>
+                        </li>
+                    </ul>
+                 </div>
+                <div class="news">
+                    <h3>最新消息</h3>
+                    <ul>
+                        <li><span>04-02</span><a>瓜大姐 7.0.13 for Android 正式版发布</a></li>
+                        <li><span>04-01</span><a>瓜大姐 7.0.12 for iOS 正式版发布</a></li>
+                        <li><span>02-28</span><a>瓜大姐 2.3.30 for Mac 正式版发布</a></li>
+                        <li><span>01-19</span><a>瓜大姐 2.8.0 for Windows 正式版发布</a></li>
+                        <li><span>02-21</span><a>瓜大姐外部链接内容管理规范</a></li>
+                        <li><span>01-10</span><a>瓜大姐 2.8.0 for windowsphone 正式版发布</a></li>
+
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">
+            <div class="footer-copyright">
+                <p>关于瓜大姐&nbsp; |&nbsp; 服务条款&nbsp; | &nbsp;使用规范&nbsp; | &nbsp;客服中心 &nbsp;| &nbsp;隐私保护指引</p>
+                <p>© 2005-2020 GDJ. All Rights Reserved</p>
+
+            </div>
+
+            <div class="language">
+                <p>简体中文&nbsp; |&nbsp;繁体中文&nbsp; |&nbsp;English</p>
+            </div>
+
+
+        </div>
+
+    </div>
+
+
+
+    <script>        
+        var mySwiper = new Swiper ('.swiper-container', {
+          loop: true, 
+
+          pagination: {
+            el: '.swiper-pagination',
+          },
+
+          navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+          },
+
+          scrollbar: {
+            el: '.swiper-scrollbar',
+          },
+        })        
+        </script>
+
+    
+</body>
+</html>
